@@ -1,5 +1,5 @@
 data_field="ukb22418"
-data_file_dir="${project}:/path/to/regenie_ukb_unfolded"
+data_file_dir="${project}:/output_path"
 
 run_plink_qc="plink2 --bfile ${data_field}_all_v2_merged\
  --maf 0.01 --mac 20 --geno 0.1 \
