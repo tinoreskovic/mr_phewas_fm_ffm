@@ -1,6 +1,6 @@
 imp_file_dir="/Bulk/Imputation/UKB imputation from genotype/"
 data_field="ukb22828"
-txt_file_dir="${project}:/output_path_3"
+txt_file_dir="${project}:/output_path"
 
 for i in {1..22}; do
     run_plink_imp="plink2 --bgen ${data_field}_c${i}_b0_v3.bgen ref-first\
