@@ -2,7 +2,7 @@ imp_file_dir="/Bulk/Imputation/UKB imputation from genotype/"
 data_field="ukb22828"
 data_file_dir="${project}:/output_path"
 data_file_dir2="${project}:/data/output_path_2"
-txt_file_dir="${project}:/output_path_3"
+txt_file_dir="${project}:/output_path"
 
 
 for chr in {1..22}; do
